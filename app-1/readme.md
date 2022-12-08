@@ -20,9 +20,9 @@ poetry add opentelemetry-instrumentation-urllib3
 
 
 # Environment variables
-OTEL_SERVICE_NAME=<your-service-name> \
-OTEL_EXPORTER_OTLP_TRACES_ENDPOINT=https://otelcol.aspecto.io:4317 \
-OTEL_EXPORTER_OTLP_HEADERS=Authorization=e230367b-fdbb-4c55-b120-41e95f012486 \
+OTEL_SERVICE_NAME=<your-service-name>
+OTEL_EXPORTER_OTLP_TRACES_ENDPOINT=https://otelcol.aspecto.io:4317 
+OTEL_EXPORTER_OTLP_HEADERS=Authorization=
 
 # Running app
 opentelemetry-instrument uvicorn main:app --reload --port 8080
