@@ -22,6 +22,7 @@ opentelemetry-instrumentation-fastapi = "^0.35b0"
 opentelemetry-instrumentation-grpc = "^0.35b0"
 opentelemetry-instrumentation-requests = "^0.35b0"
 opentelemetry-instrumentation-urllib3 = "^0.35b0"
+opentelemetry-exporter-gcp-trace = "^1.4.0"
 
 [tool.poetry.dev-dependencies]
 
