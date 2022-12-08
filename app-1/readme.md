@@ -20,7 +20,7 @@ poetry add opentelemetry-instrumentation-urllib3
 
 
 # Environment variables
-OTEL_SERVICE_NAME=<your-service-name>
+OTEL_SERVICE_NAME=<your-service-name>  
 OTEL_EXPORTER_OTLP_TRACES_ENDPOINT=https://otelcol.aspecto.io:4317 
 OTEL_EXPORTER_OTLP_HEADERS=Authorization=
 
